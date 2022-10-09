@@ -18,12 +18,12 @@ export class News extends Component {
     country: PropTypes.string
   }
 
-  articles = []
+  // articles = []
   constructor(props) {
     super(props);
     // console.log(3);
     this.state = {
-      articles: this.articles,
+      articles: [],
       loading: true,
       page: 1,
       totalResults: 0
@@ -87,7 +87,7 @@ export class News extends Component {
         {this.state.loading && <Spinner />}
 
         <InfiniteScroll
-          dataLength={this.state.articles.length} //This is important field to render the next data
+          dataLength={this.state?.articles?.length} //This is important field to render the next data
           next={this.fetchMoreData}
           hasMore={this.state.articles.length !== this.state.totalResults}
           loader={this.state.loading && <Spinner />}
