@@ -1,0 +1,36 @@
+{
+  "status": "ok",
+  "totalResults": 3,
+  "articles": [
+    {
+      "source": { "id": "abc-news-au", "name": "ABC News (AU)" },
+      "author": "Russell Jackson",
+      "title": "Abused by their coach Ian King and abandoned by cricket, Matthew Rose and his teammates are now fighting back",
+      "description": "In the late 1980s, Matthew Rose found a coach who could turn him into the next Dennis Lillee. Instead, like dozens of other elite cricketers in the ACT, he was preyed on by sexual abuser. Warning: this story contains graphic descriptions of child sexual abuse.",
+      "url": "http://www.abc.net.au/news/2022-09-03/matthew-rose-speaks-out-about-ian-king-abuse-in-cricket/101389718",
+      "urlToImage": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.pngkey.com%2Fpng%2Fdetail%2F420-4205948_zzz-panda-sleep-sleepy-cartoon.png&imgrefurl=https%3A%2F%2Fwww.pngkey.com%2Fdetail%2Fu2e6t4i1w7q8w7u2_zzz-panda-sleep-sleepy-cartoon%2F&tbnid=8UH-hJVcleoOcM&vet=12ahUKEwjvj6bHmf35AhUkjNgFHU9FBZoQMygIegUIARDaAQ..i&docid=HTAUFa0LTAXpKM&w=820&h=401&q=tired%20panda%20transparent%20background&ved=2ahUKEwjvj6bHmf35AhUkjNgFHU9FBZoQMygIegUIARDaAQ",
+      "publishedAt": "2022-09-02T20:30:39Z",
+      "content": "When Matthew Rose was a boy, his ambitions were not unusual among his peers  he wanted to bowl as fast as Dennis Lillee and he wanted to play Test cricket for Australia.\r\nIn the late 1980s, Rose seem… [+19517 chars]"
+    },
+    {
+      "source": { "id": "espn-cric-info", "name": "ESPN Cric Info" },
+      "author": null,
+      "title": "PCB hands Umar Akmal three-year ban from all cricket | ESPNcricinfo.com",
+      "description": "Penalty after the batsman pleaded guilty to not reporting corrupt approaches | ESPNcricinfo.com",
+      "url": "http://www.espncricinfo.com/story/_/id/29103103/pcb-hands-umar-akmal-three-year-ban-all-cricket",
+      "urlToImage": "https://a4.espncdn.com/combiner/i?img=%2Fi%2Fcricket%2Fcricinfo%2F1099495_800x450.jpg",
+      "publishedAt": "2020-04-27T11:41:47Z",
+      "content": "Umar Akmal's troubled cricket career has hit its biggest roadblock yet, with the PCB handing him a ban from all representative cricket for three years after he pleaded guilty of failing to report det… [+1506 chars]"
+    },
+    {
+      "source": { "id": "espn-cric-info", "name": "ESPN Cric Info" },
+      "author": null,
+      "title": "What we learned from watching the 1992 World Cup final in full again | ESPNcricinfo.com",
+      "description": "Wides, lbw calls, swing - plenty of things were different in white-ball cricket back then | ESPNcricinfo.com",
+      "url": "http://www.espncricinfo.com/story/_/id/28970907/learned-watching-1992-world-cup-final-full-again",
+      "urlToImage": "https://a4.espncdn.com/combiner/i?img=%2Fi%2Fcricket%2Fcricinfo%2F1219926_1296x729.jpg",
+      "publishedAt": "2020-03-30T15:26:05Z",
+      "content": "Last week, we at ESPNcricinfo did something we have been thinking of doing for eight years now: pretend-live ball-by-ball commentary for a classic cricket match. We knew the result, yes, but we tried… [+6823 chars]"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+ // static propTypes = { second: third }
