@@ -9,7 +9,7 @@ export default class Navbar extends Component {
         return ( 
             <>
                 {/* <div>Navbar</div> */}
-                <nav className="navbar navbar-expand-lg bg-white shadow p-3 mb-5 bg-white rounded">
+                <nav className="navbar navbar-expand-lg bg-white shadow p-3 mb-5 bg-white rounded fixed-top">
                     <div className="container-fluid">
                         <Link className="navbar-brand" to="/">
                             <img src="/logo.png" alt="" width="50" height="50"/>

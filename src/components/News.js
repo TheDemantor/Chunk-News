@@ -18,12 +18,12 @@ export class News extends Component {
     country: PropTypes.string
   }
 
-  // articles = []
+  articles = []
   constructor(props) {
     super(props);
     // console.log(3);
     this.state = {
-      articles: [],
+      articles: this.articles,
       loading: true,
       page: 1,
       totalResults: 0
@@ -58,7 +58,7 @@ export class News extends Component {
   fetchMoreData = async () => {
     this.props.setColor('#0000FF');
     this.props.setProgress(0);
-
+    this.setState({loading:true})
     const url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=${this.props.apiKey}&page=${this.state.page}&pageSize=${this.props.pageSize}`;
     let data = await fetch(url);
     let parsedData = await data.json()
@@ -70,7 +70,7 @@ export class News extends Component {
     })
     this.props.setProgress(100);
     this.props.setColor('#FFFF00');
-    this.setState({ loading: true, page: this.state.page + 1 })
+    this.setState({ loading: false, page: this.state.page + 1 })
 
   };
 
@@ -80,14 +80,14 @@ export class News extends Component {
     // console.log("rtn");
     return (
       <>
-        <div className="container my-3 text-center">
+        <div className="container text-center " style={{marginTop:'120px'}}>
           <h2>!  Hot News in {this.props.category.charAt(0).toUpperCase() + this.props.category.slice(1)} !</h2>
         </div>
 
         {this.state.loading && <Spinner />}
 
         <InfiniteScroll
-          dataLength={this.state?.articles?.length} //This is important field to render the next data
+          dataLength={this.state.articles.length} //This is important field to render the next data
           next={this.fetchMoreData}
           hasMore={this.state.articles.length !== this.state.totalResults}
           loader={this.state.loading && <Spinner />}
