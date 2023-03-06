@@ -3,7 +3,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## First Look ~
-[![TASK-CLI](https://drive.google.com/file/d/1jYo7WySp3P2HQnHLwJY9lTytmEKXHtK2/view?usp=sharing)
+[![TASK-CLI](https://screenrec.com/share/cPw9Rrm3aB)
 
 ## Available Scripts
 
